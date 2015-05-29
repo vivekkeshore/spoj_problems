@@ -42,7 +42,7 @@ if __name__ == "__main__":
                     prime_bool[j-m] = False
 
         for prime_num in prime_nums:
-            if prime_num >= m and prime_num <= n:
+            if (prime_num >= m) and (prime_num <= n):
                 print prime_num
 
         for i in xrange(n-m+1):
